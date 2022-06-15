@@ -2,3 +2,20 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+#body{
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    max-width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+button{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+#btns{
+    margin: auto;
+    margin-left: 75px;
+}
