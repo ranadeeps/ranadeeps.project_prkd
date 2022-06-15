@@ -7,3 +7,11 @@ function clr(){
 function ent(){
     window.open("https://wa.me/+91"+document.getElementById("display").value,"_blank");
 }
+var inp = document.getElementById("display");
+inp.addEventListener('keyup',function(event){
+    console.log(event.key);
+    if(event.key === 'Enter'){
+        event.preventDefault();
+        ent();
+    }
+})
